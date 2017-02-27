@@ -1,1 +1,14 @@
-theme: jekyll-theme-architect
+defaults:
+  -
+    scope:
+      path: "" #default for all files not otherwise defined
+    values:
+      layout: "default"
+      author: "Zeus"
+      
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "posts"
